@@ -2,7 +2,7 @@ import './styles.css';
 import menu from './menu.json';
 import menuCardsTpl from './templates/menu.hbs';
 
-//================= menuMarkup on templates =================
+//================= menuMarkup on Templates =================
 
 const menuRef = document.querySelector('.js-menu');
 const menuMarkup = menuCardsTpl(menu);
